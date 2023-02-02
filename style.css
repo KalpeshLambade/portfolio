@@ -51,7 +51,7 @@
     border-radius: 50%;
   }
   #navbar-right >div:first-child >i{
-    margin: 25px 10px;
+    margin: 30px 10px;
   }
   #navbar-right >div:nth-child(2){
     border: 1px solid white;
@@ -158,4 +158,66 @@
     width: 100%;
     margin-left:0px;
   }
- 
+  #my-story{
+    /* border: 1px solid red; */
+    height:500px;
+    width: 80%;
+    margin:auto;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #my-story-left{
+    height: 70%;
+    margin: auto;
+    width:40%;
+    /* border: 1px solid blue; */
+    border-radius: 20px;
+  }
+  #my-story-left img{
+    height: 100%;
+    width:100%;
+    border-radius: 20px;
+  }
+  #my-story-right{
+    height: 70%;
+    margin: auto;
+    width: 40%;
+    /* border: 1px solid blue; */
+  }
+  #my-story-right >div:first-child{
+    display: flex;
+    justify-content: right;
+    /* border: 1px solid blue; */
+    border-radius: 15px;
+    height: 25%;
+    background-color: #14b789;
+  }
+  #my-story-right >div:first-child h2{
+    color:white;
+    font-size: 40px;
+    margin-right: 20px;
+    padding-top: 15px;
+    /* border: 1px solid blue; */
+  }
+  #my-story-right >div:first-child div{
+    /* border: 1px solid blue; */
+  }
+  #my-story-right >div:first-child >div img{
+    height: 100%;
+    width:100%;
+    border-radius: 50%;
+  }
+  #my-story-right >div:nth-child(2){
+    padding:25px 0;
+    
+  }
+  #my-story-right >div:nth-child(2) h2{
+    font-size:35px;
+    font-weight:bold;
+    padding: 10px;
+  }
+#my-story-right >div:nth-child(2) p{
+    padding: 5px;
+    line-height: 25px;
+}
+
